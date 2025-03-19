@@ -1,5 +1,5 @@
-a = 15
-b =12
+a = input("First number: ")
+b = input("Second number: ")
 
-res = a + b
+res = float(a) + float(b)
 print(res)
